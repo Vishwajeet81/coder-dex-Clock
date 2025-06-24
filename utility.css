@@ -1,0 +1,14 @@
+
+.hours{
+    color: gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    /* border: 2px solid ; */
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    /* border-radius: 100px; */
+}

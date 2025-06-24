@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* background-color: rgb(22, 22, 22); */
+}
+
+.clock_outer{
+    border: 10px double;
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.clock_inner{
+    position: relative;
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    border-radius:200px ;
+
+}
+
+.tweleve{
+    top: 0%;
+}
+.one{
+    right: 20%;
+    top: 5%;
+}
+.two{
+    right: 6%;
+    top: 20%;
+
+}
+.three{
+    right: 0%;
+}
+.four{
+    top: 60%;
+    right: 5%;
+}
+.five{
+    top: 75%;
+    right: 20%;
+}
+.six{
+    top: 80%;
+}
+.seven{
+    top: 75%;
+    left: 20%;
+}
+.eight{
+    left: 5%;
+    top: 59%;
+}
+.nine{
+    left: 0%;
+    top:39%
+}
+.ten{
+    left: 6%;
+    top: 19%;
+}
+.eleven{
+    left: 20%;
+    top: 5%;
+}
+
+
+.seconds{
+    border: 3px solid;
+    height: 20vh;
+    position: absolute;
+    top:-580%;
+    transform: rotate(0deg);
+    transform-origin: 100% 100%;
+}
+
+.minutes{
+    border: 2px solid;
+    height: 20vh;
+    position: absolute;
+    top:-570%;
+    transform: rotate(0deg);
+    transform-origin: 100% 100%;
+}
+
+.hours_hand{
+    
+    border: 2px solid;
+    height: 16vh;
+    position: absolute;
+    top:-450%;
+    transform: rotate(0deg);
+    transform-origin: 100% 100%;
+}
+.mid{
+    position: relative;
+    height:30px;
+    width: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    
+}
+
+.digital_clock{
+    position: absolute;
+    top: 26%;
+    border: 2px solid;
+    height: 10vh;
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(1, 200, 34);
+}
+
+.vertical_mid_break_line{
+    height: 10vh;
+    width: 10%;
+    font-size: 60px;
+    color:  rgb(1, 200, 34);
+}
+
+.hours_side{
+    height: 10vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(1, 200, 34);
+}
+
+.minute_side{
+    height: 10vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(1, 200, 34);
+}
+.second_side{
+ height: 10vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+    color: #1E1E1E;
+}
+.green{
+    color:  rgb(1, 200, 34);
+}
+.black{
+    color:#1E1E1E
+}
